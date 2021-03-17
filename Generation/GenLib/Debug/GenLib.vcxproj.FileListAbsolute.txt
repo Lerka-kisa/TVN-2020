@@ -1,0 +1,2 @@
+D:\Доки\Уник\ЯП\Курсач\Generation\Debug\GenLib.pdb
+D:\Доки\Уник\ЯП\Курсач\Generation\GenLib\Debug\GenLib.pdb
