@@ -1,0 +1,65 @@
+lichba function min(lichba x, lichba y)
+[
+	new lichba res;
+	condition: x > y #
+	istrue [res = x;]
+	isfalse [res = y;]#
+	return res;
+]
+procedure function stand (radok a, radok b)
+[
+	new radok str;
+	str = concat(a,b);
+	newline;
+        vivodzim "Resultat: ";
+	vivodzim str;
+	newline;
+        
+	return;
+]
+main[
+	new lichba x = 327;
+	new lichba y = 9;
+	x = x % y;
+	vivodzim x;
+	new lichba z = -9;
+	new radok a = "Kursach ";
+	new radok b = "sdelan!!!";
+        new radok c = "32";
+        new lichba e;
+        vivodzim "Peravod z radka y lichby: ";
+        e = atoii(c);
+        vivodzim e;
+        newline;
+	new lichba k;
+	k = lenght(a)+1;
+        vivodzim "Dayjhinia radka a:";
+	vivodzim k;
+        newline;
+        new lichba result;
+        result = x{2{3;
+	vivodzim "Zdvig yleva: "; 
+	vivodzim result;
+       	newline;
+ 	new lichba t;
+	vivodzim "Pamijh 327 i 9 bolsh: ";
+	newline;
+	new lichba ab = 1;
+	vivodzim "Cycle ad 1 da 5: ";
+	condition: ab ! 5 #
+	cycle [
+		vivodzim ab;
+		vivodzim " ";
+		ab = ab +1;
+	]#
+	vivodzim ab;
+	newline;
+	new lichba h;
+	h = e % 5;
+	vivodzim "Resht ad dzyalennya 32 na 5: ";
+	vivodzim h;
+	newline;
+	vivodzim "---------------------------------";
+	stand(a, b);
+	vivodzim "---------------------------------";
+]
